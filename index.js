@@ -1,4 +1,4 @@
-console.log('Preparo ChatUNity-bot...')
+console.log('Preparo cescobot...')
 import { join, dirname } from 'path'
 import { createRequire } from "module";
 import { fileURLToPath } from 'url'
@@ -13,7 +13,7 @@ const { name, author } = require(join(__dirname, './package.json'))
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('\nChatunity-\nbot', {
+say('\ncesco-\nbot', {
 font: 'block',
 align: 'center',
 color: ['cyan', 'green']})
@@ -28,7 +28,7 @@ if (isRunning) return
 isRunning = true
 let args = [join(__dirname, file), ...process.argv.slice(2)]
 
-say('ediz chatunity', {
+say('ediz cescobot', {
 font: 'console',
 align: 'center',
 color: ['cyan', 'blue']})
